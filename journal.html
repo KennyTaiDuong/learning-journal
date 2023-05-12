@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Journal</title>
+    <!-- "Inter" Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- "Montserrat" Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html" class="nav-title">
+        <p class="logo">🐐</p>
+        <p>MyLearningJournal</p>
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">HOME</a>
+          </li>
+          <li>
+            <a href="./about-me.html">ABOUT ME</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="article-content top">
+        <h2 class="blog-title">
+          My new journey as a self-taught web developer
+        </h2>
+        <p class="blog-subtitle">
+          After a poor performance in college, I decided to become a college
+          drop-out and search for a career in the tech industry. With the
+          consistent growth of technology, I believed there were only positives
+          in entering this field.
+        </p>
+        <p class="blog-date">January 25, 2023</p>
+      </div>
+      <img src="images/desktop_setup.jpeg" class="article-image" />
+      <div class="article-content bottom">
+        <h3>How I stay committed to learning</h3>
+        <p>
+          Fortunately, I have relatives who were already in this space and were
+          willing to support and guide me along my journey to find a career.
+          Through their support, I was given the opportunity to move to a
+          different state and put myself in an environment where I would study
+          like it was my full-time job. This studying structure allowed me to
+          spend majority of my week learning how to code.
+        </p>
+        <p>
+          The only downside was that I had to sacrifice my time with family and
+          friends in my hometown. Initially, I was feeling homesick, but after a
+          few months it all went away.
+        </p>
+        <h3>How I got started</h3>
+        <p>
+          Initially, I had the intentions of becoming a backend-developer, so I
+          began learning how to write Python through an open Harvard course,
+          "CS50P". That took me about a month to get through and learn the
+          basics of Python. After the course, I felt like I needed to learn more
+          of the fundamentals, so I went back to learn a more general comp-sci
+          course, "CS50." After going through majority of the course and working
+          a little on the frontend languages, I enjoyed it more and decided to
+          switch career goals to frontend developer. Now, I am here learning
+          frontend languages through Scrimba working on this solo project.
+        </p>
+      </div>
+    </main>
+    <h3 class="center">Recent Posts</h3>
+    <div class="blog-container" id="blog-container"></div>
+    <div class="more-btn-container" id="more-btn-container">
+      <button class="more-btn" id="more-btn">View More</button>
+    </div>
+    <footer>
+      <p>MyLearningJournal</p>
+      <p class="gray-text">Copyright ©2023</p>
+    </footer>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
