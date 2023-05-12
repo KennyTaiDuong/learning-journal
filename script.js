@@ -3,7 +3,7 @@ import { posts } from "./data.js";
 const viewMoreBtn = document.getElementById("more-btn");
 const viewMoreBtnContainer = document.getElementById("more-btn-container");
 const blogContainer = document.getElementById("blog-container");
-let count = posts.length;
+let count = 3;
 
 viewMoreBtn.addEventListener("click", function () {
   viewMore();
